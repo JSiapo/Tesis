@@ -1,3 +1,7 @@
+.vscode
+.idea
+*.code-workspace
+
 venv*
 # C++ objects and libs
 *.slo
