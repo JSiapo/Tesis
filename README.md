@@ -2,7 +2,7 @@
 
 ## Alumnos:
 Siapo Rodríguez, José Luis O.
-Baltodano Beltrán, Massiel Estela
+Baltodano Beltrán, Massiel Estela.
 
 Teoria de la aplicación del test aqui.
 
