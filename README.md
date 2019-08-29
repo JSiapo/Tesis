@@ -1,4 +1,4 @@
-# Automatización del test de Machouver
+# Automatización del test de Machover
 
 Teoria de la aplicación del test aqui.
 
