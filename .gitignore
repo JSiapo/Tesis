@@ -2,6 +2,11 @@
 .idea
 *.code-workspace
 
+#images
+*.png
+*.jpeg
+*.jpg
+
 venv*
 # C++ objects and libs
 *.slo

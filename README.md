@@ -12,5 +12,6 @@ Teoria de tecnologia usada aqui.
 
 
 ``` python
+python -m pip install --upgrade pip #Update pip
 pip install -r requirements.txt
 ```
