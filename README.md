@@ -15,3 +15,10 @@ Teoria de tecnologia usada aqui.
 python -m pip install --upgrade pip #Update pip
 pip install -r requirements.txt
 ```
+## Descargar data
+
+``` python
+python libs/download.py arg1 arg2
+```
+**arg1**: link train images
+**arg2**: link validation images
