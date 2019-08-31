@@ -3,6 +3,7 @@
 *.code-workspace
 *.incomplete
 data/*
+
 #images
 *.jpeg
 *.jpg
