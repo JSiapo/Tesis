@@ -27,3 +27,17 @@ python libs/download.py arg1 arg2
 **arg1**: link train images
 
 **arg2**: link validation images
+
+## Ejecutar Jupyter notebook
+
+``` bash
+jupyter notebook
+```
+
+Para abrir notebooks de carpeta analytics
+
+## Ejecutar LablelImg
+
+``` bash
+labelImg
+```
