@@ -11,14 +11,24 @@ Teoria de tecnologia usada aqui.
 
 ## Requerimientos
 
-
+### Linux
 ``` python
-python -m venv venv
-source venv/bin/activate #only unix
-venv\Scripts\activate #only windows
+python3 -m venv venv
+source venv/bin/activate
 python -m pip install --upgrade pip #Update pip
 pip install -r requirements.txt
 ```
+
+### Windows
+
+``` python
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate.bat
+python -m pip install --upgrade pip #Update pip
+pip install -r requirements.txt
+```
+
 ## Descargar data
 
 ``` python
