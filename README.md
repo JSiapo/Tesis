@@ -5,7 +5,7 @@
 -  Siapo Rodríguez, José Luis O.
 
 
-Teoria de la aplicación del test aqui.
+Teoria de la aplicación del test [aqui](https://gitlab.com/JSiapo/tesis/raw/develop/Tesis/Informe/Tesis.pdf).
 
 Teoria de tecnologia usada aqui.
 
