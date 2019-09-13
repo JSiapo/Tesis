@@ -1,0 +1,233 @@
+\chapter{Introducción}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%\renewcommand{\baselinestretch}{2} %doble espacio paratodo el texto
+%\renewcommand{\baselinestretch }{1.5}
+ 
+
+
+% {\bf Ejemplo:}\par
+
+Texto.
+\vskip 0.3cm
+Texto.
+
+\input{components/tex_justificacion.tex}
+
+\input{components/tex_formulacion_problema.tex}
+
+\input{components/tex_hipotesis.tex}
+
+\input{components/tex_objetivos.tex}
+
+\input{components/tex_estructura.tex}
+
+\input{components/tex_materiales_metodos.tex}
+
+
+\section{Marco teórico}
+\subsection{Optimización combinatoria y complejidad computacional}
+\subsubsection{Problemas combinatorios}
+\subsubsection{Heurísticas y metaheurísticas}
+
+\subsection{Sustentabilidad}
+
+{\bf Ejemplo:}\par
+
+La configuración, característica, jurisdicción administrativa, relaciones económicas, sociales y ambientales de un espacio urbano se define por la población y por la función que ella desarrolla en un área geográfica o región. De este modo las ciudades son sistemas dinámicos que interactúan continua y constantemente con su medio ambiente, acompañando las características, perfil, cultura y ritmo de desarrollo económico y social de su población. Los medios de transporte juegan un papel importante en tal ritmo de desarrollo de las ciudades, ya que ellos tienen como función relacional los factores poblacionales con los factores uso del suelo.  
+\vskip 1cm
+El desarrollo sustentable, (Figura 2.1), estará garantizado si se consideran tres aspectos fundamentales: económico, social y ambiental, donde la intersección de estos aspectos garantiza la calidad de vida en el espacio urbano y el equilibrio en las clases sociales en busca del bienestar.
+
+\begin{figure}[ht]
+\begin{center}
+% \includegraphics[width=0.3\textwidth]{Figura2}
+\end{center}
+\begin{center}
+\vskip -0.5cm
+\caption{\small{Aspectos claves para el desarrollo sustentable.}}
+{\small{Fuente: }}
+\end{center}
+\end{figure}
+
+\subsection{Logística directa y reversa}
+
+\subsubsection{Logística directa}
+
+{\bf Ejemplo:}\par
+
+entienden que la logística trata de la planificación y control de los flujos de materiales e informaciones relacionadas en las organizaciones, tanto en los sectores público y privado. Además su misión es hacer la entrega de los productos correctos, en el local correcto y en la hora correcta, optimizando los costos operacionales totales del proceso.
+satisfaciendo un determinado conjunto de restricciones o condiciones.\par
+
+\subsubsection{Logística reversa}
+
+{\bf Ejemplo:}\par
+
+En los años 90 se presentaron definiciones generales las cuales vienen siendo mejoradas. presenta una mejora en la definición de logística reversa como  ”el proceso de planificación, implementación y control de los flujos de materias-primas, en procesos de inventarios y bienes acabados, desde el punto de fabricación, distribución o uso, hacia el punto de recuperación o de eliminación”. 
+\begin{figure}[ht]
+\begin{center}
+% \includegraphics[width=0.3\textwidth]{Figura1}
+\end{center}
+\begin{center}
+\vskip -0.5cm
+\caption{\small{Logística reversa incluida en el desarrollo sustentable.}}
+{\small{Fuente: Adaptación de}}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Modelos}
+
+\subsection{Modelamiento y ruteo }
+
+{\bf Ejemplo:}\par
+
+El modelamiento matemático es una alternativa para expresar formalmente hechos reales que pueden ayudar en el proceso de toma de decisiones. El modelamiento permite la simulación de procesos  y de escenarios con la introducción de índices de desempeño que permitan cuantificar los costos y beneficios de la implementación del sistema, la mejoría de la sustentabilidad urbana y por supuesto los índices de contaminación en las grandes ciudades y su impacto en todo el medio ambiente. 
+
+\subsubsection{Modelos utilizados en los problemas de ruteo de vehículo }
+
+{\bf Ejemplo:}\par
+
+El problema de ruteo de vehículos y sus variantes han ganado mucho interés en la comunidad académica. La intención de estar más cerca a la realidad mediante el modelamiento matemático, hace que se hayan desarrollado nuevos modelos de optimización. \par
+\vskip 0.2cm
+
+\begin{table}[h!]
+\begin{center}
+\caption{\small{Resultados computacionales obtenidos en el modelo de}}
+\end{center}
+\vskip -0.7cm
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+\rowcolor{LightBlue2}{\small Escenarios} & {\small Demanda cliente (ton.)} & {\small Tiempo (min.)} & {\small Costo ($\$$)} \\ 
+\hline 
+{\small 1} & {\small P1:1; P2:2; P3:2; P4:2; P5:1} & {\small 0.12} & {\small 667.42} \\ 
+\hline 
+{\small 2} & {\small P1:1; P2:2; P3:2; P4:2; P5:1; P:4; P7:3} & {\small 56.54} & {\small 1744.35} \\ 
+\hline 
+{\small 3} & {\small P1: 1; P2:2; P3:2; P4:2; P5:1; P6: 4; P7:3; P8:2; P9:2} & {\small 287.70} & {\small 1750.72} \\ 
+\hline 
+{\small 4} & {\small P1:1; P2:2; P3: 2; P4:2; P5:1; P6:4; P7:3; P8:2; P9:2; P10:1} & {\small 1848.57} & {\small 1773.46} \\ 
+\hline 
+{\small 5} & {\small P1:1; P2:2; P3: 2; P4:2; P5:1; P6:4; P7:3; P8:2; P9:2; P10:1} & {\small 1848.57} & {\small 1773.46} \\ 
+\hline 
+{\small 6} & {\small P1:1; P2:2; P3: 2; P4:2; P5:1; P6:4; P7:3; P8:2; P9:2; P10:1} & {\small 1848.57} & {\small 1773.46} \\ 
+\hline 
+\end{tabular} 
+\begin{center}
+\vskip -0.2cm
+{\small{Fuente: Resultados obtenidos con CPLEX.}}
+\end{center}
+\end{table}
+
+
+
+\section{Método de la investigación}
+Aplicada
+
+
+
+\chapter{Nombre de la propuesta o tema central de la tesis}
+
+{\bf Ejemplo:}\par
+
+Basado en los conceptos discutidos en los capítulos 1 y 2, así como de la experiencia obtenida del análisis de resultados de los modelos matemáticos estudiados y programados con CPLEX, se caracterizan los principales elementos que componen el modelo propuesto en este trabajo para la colecta y transporte de RSU en un área urbana. Así, se estructura una red logística reversa para los RSU considerando diferentes centros especializados o unidades  productivas para atender las diferentes fases del proceso en la red. En este proceso de modelamiento se tuvo cuidado en mantener la propuesta lo mas cerca a la realidad de las ciudades, donde el modelo fue testado y validado.
+
+\section{Proceso de modelamiento} 
+
+{\bf Ejemplo:}\par
+
+La planificación y modelamiento del sistema de logística reversa de una área urbana es una fase importante y estratégica, para obtener en el futuro óptimos resultados en el proceso de gerenciamiento y operación del sistema reverso de RSU. El modelamiento permite determinar la localización de las estaciones de colecta y de unidades especiales necesarias, asi como el flujo que será movido a los largo de la red permitiendo dimensionar todo el sistema y sus componentes (Figura 3.1).
+\vskip 0.3cm
+\begin{figure}[ht]
+\begin{center}
+% \includegraphics[width=.6\textwidth]{Figura3}
+\end{center}
+\begin{center}
+\vskip -0.5cm
+\caption{\small{Esquema del proceso de colecta y transporte de RSU.}}
+{\small{Fuente: Elaboración propia}}
+\end{center}
+\end{figure}
+
+\subsection{Proceso de ruteo}
+
+\begin{algorithm}
+\begin{algorithmic}[htbp]
+\REQUIRE NP,NV,Dij,Tij,DM,CM,P,numVecinos,numIteraciones,persistencia.  % Entrada
+ \label{lin:algoritmo_pseudocodigo}
+\ENSURE RUTAS.                                                          % Salida
+
+\STATE $i \leftarrow 0 $
+
+\STATE Inicializar lista de vecinos y la memoria tabú.
+\STATE Generar solución inicial.
+\STATE Evaluar solucion inicial.
+\WHILE {$numIteraciones  >  i$}
+\STATE Generar los vecinos.
+\STATE Evaluar los vecinos.
+\STATE Elegir al mejor vecino.
+\IF{Mejor vecino tiene una mejor solución}
+\STATE Reemplazar solución inicial y agregarlo a la memoria tabú con su persistencia respectiva.
+
+\ELSE
+\STATE Agregar mejor vecino a la memoria tabú con su persistencia respectiva.
+
+\ENDIF
+\STATE Disminuir persistencia de todos los que estan en la memoria tabú excepto del último elemento agregado.
+
+\IF{La persistencia de los elementos llega a cero}
+\STATE Retirar el elemento de la memoria tabú.
+\ENDIF
+
+\STATE $i++$
+\ENDWHILE
+\RETURN  La mejor solución.
+
+
+\end{algorithmic}
+\caption{Busca tabú}
+\label{alg:algoritmoBT}
+\end{algorithm}
+
+
+\section{Implementación} 
+
+
+
+\chapter{Resultados y discusión de la tesis}
+
+
+Al culminar con la investigación se llegaron a resultados interesantes del punto de vista tanto teórico como computacional. Estos resultados muestran que se contrasta la hipótesis planteada durante el proceso de elaboración del plan de investigación, es decir, que se logró demostrar la relación entre las variables de estudio formuladas en la investigación.
+
+\section{Teóricos}
+
+\section{Computacionales}
+
+
+
+
+\chapter{Consideraciones finales}
+
+
+\section{Conclusiones}
+
+{\bf Ejemplo}\\
+La investigación bibliográfica revela que realmente existe una preocupación de los gobiernos con el destino final de los residuos sólidos, con el objetivo de preservar la salud de la población y el medio ambiente urbano y rural. Por ejemplo, se observa la creación de la Ley 12305. Sin embargo existe una laguna entre las metas propuestas en la ley con las metas reales de los gobiernos locales. Eso se debe a la falta de una buena estructura organizacional, gerencial y operacional de los gobiernos locales capaz de atender las demandas locales y las necesidades de la población.
+\vskip 0.3cm
+La falta de cuadros especializados, tanto en los gobiernos centrales como locales, para realizar la planificación y modelamiento de una red logística reversa puede ser compensada con la contribución de los investigadores que actúan en ese campo del conocimiento. Es muy difícil la formación de un equipo que tenga todo el conocimiento en las áreas de ciencia de la computación, de geo procesamiento, de modelamiento matemático y de logística reversa, entre otras. Esa es una de las principales justificativas que los gobiernos, argumentan a la falta de planificación de una red logística reversa que funciones eficaz y eficientemente. 
+\vskip 0.3cm
+Por lo tanto, como quedó demostrado a lo largo de este trabajo, es posible realizar el modelamiento matemático para este tipo de problema con baja inversión, así como aplicarlo en varias regiones sin necesidad de grandes cambios en el modelamiento propuesto. El modelo propuesto calcula los flujos en la red logística reversa, permitiendo dimensionar la cantidad y capacidad de las unidades productivas y de los vehículos. 
+\vskip 0.3cm
+...
+
+
+\section{Trabajos futuros}
+
+
+% El textos \citeyear{OrganizacionMundialdelaSalud2016} dice la la la
+
+\cleardoublepage
+\renewcommand\bibname{Referencias bibliográficas}
+\addcontentsline{toc}{chapter}{ Referencias bibliográfícas}
+\bibliographystyle{apalike}   % estilo de la bibliografía APA.
+\bibliography{Bibliografia}   % Archivo de Bibliografia.bib.
+
