@@ -22,17 +22,17 @@ pip install -r requirements.txt
 ### Windows
 
 ``` python
-pip install virtualenv
-virtualenv venv
-venv\Scripts\activate.bat
-python -m pip install --upgrade pip #Update pip
+pip install virtualenv --user
+python -m venv venv_win32
+venv_win32\Scripts\activate.bat
+python -m pip install --upgrade pip --user #Update pip
 pip install -r requirements.txt
 ```
 
 ## Descargar data
 
 ``` python
-python libs/download.py arg1 arg2
+python lib/download.py arg1 arg2
 ```
 **arg1**: link train images
 
